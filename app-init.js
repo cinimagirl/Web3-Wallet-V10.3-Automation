@@ -2,7 +2,7 @@
 "use strict";
 
 /* global chrome */
-// This file is used only for manifest version 3
+// This file is used only for manifest version 2
 
 // Represents if importAllScripts has been run
 // eslint-disable-next-line
