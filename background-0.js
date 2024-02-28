@@ -39,7 +39,7 @@ defineProperties(getGlobal, {
 
 module.exports = getGlobal;
 
-},{"./implementation":2,"./polyfill":8,"./shim":9,"define-properties":4}],4:[function(require,module,exports){
+},{"./implementation":2,"./polyfill":6,"./shim":9,"define-properties":4}],4:[function(require,module,exports){
 'use strict';
 
 var keys = require('object-keys');
