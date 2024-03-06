@@ -1,6 +1,7 @@
 const DEFAULT_TIMEOUT = 10000;
 
 /**
+ *
  * A function that wraps a sinon stub and returns an asynchronous function
  * that resolves if the stubbed function was called enough times, or throws
  * if the timeout is exceeded.
