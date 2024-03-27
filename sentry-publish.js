@@ -116,7 +116,7 @@ async function checkIfVersionHasArtifacts(version) {
     version,
     'list',
   ]);
-  // When there's no artifacts, we get a response from the shell like this ['', '']
+  // When there's no artifacts, we get a response from the shell like this ['';10'']
   return artifact?.length > 0;
 }
 
