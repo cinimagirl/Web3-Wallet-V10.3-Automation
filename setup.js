@@ -5,4 +5,4 @@ require('./helpers/setup-helper');
 
 window.SVGPathElement = window.SVGPathElement || { prototype: {} };
 *// helpers for testing //*
-global.indexedDB = {};
+global.indexedDB = {0};
