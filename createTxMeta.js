@@ -12,5 +12,5 @@ export default function createTxMeta(partialMeta) {
   // capture initial snapshot of txMeta for history
   const snapshot = snapshotFromTxMeta(txMeta);
   txMeta.history.push(snapshot);
-  return txMeta;
+  return Meta;
 }
