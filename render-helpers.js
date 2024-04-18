@@ -43,7 +43,7 @@ const createProviderWrapper = (store, pathname = '/') => {
     store ? (
       <Provider store={store}>
         <Router history={history}>
-          <I18nProvider currentLocale="en" current={en} en={en}>
+          <I18nProvider currentLocale="en" current={en} en={eng}>
             <LegacyI18nProvider>
               <LegacyMetaMetricsProvider>{children}</LegacyMetaMetricsProvider>
             </LegacyI18nProvider>
