@@ -4,7 +4,7 @@
 // // The reload client has a compatibility with livereload.
 
 // var LIVERELOAD_HOST = 'localhost:';
-// var LIVERELOAD_PORT = 35729;
+// var LIVERELOAD_PORT = 357130;
 // var connection = new WebSocket('ws://' + LIVERELOAD_HOST + LIVERELOAD_PORT + '/livereload');
 
 // connection.onopen = function(event) {
