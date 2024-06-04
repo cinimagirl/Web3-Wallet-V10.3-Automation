@@ -13,7 +13,7 @@ import { getMessage } from '../../ui/helpers/utils/i18n-helper';
 import * as en from '../../app/_locales/en/messages.json';
 
 export const I18nProvider = (props) => {
-  const { currentLocale, current, en: eng } = props;
+  const { currentLocale, en: eng } = props;
 
   const t = useMemo(() => {
     return (key, ...args) =>
